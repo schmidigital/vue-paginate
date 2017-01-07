@@ -57,11 +57,11 @@ export default {
     },
     list () {
       // On list change, refresh the paginated list
-      this.currentPage = 0
+      //this.currentPage = 0
       this.paginateList()
     },
     per () {
-      this.currentPage = 0
+      //this.currentPage = 0
       this.paginateList()
     }
   },
